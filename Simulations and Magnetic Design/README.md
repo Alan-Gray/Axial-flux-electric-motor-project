@@ -6,23 +6,22 @@ The 2D simulations were used to compare my different ideas for the magnetic desi
 
 ### Simulations: 3mm magnets
 
-<center>
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 30%">
+| Item         | Price | # In stock |
+|--------------|:-----:|-----------:|
+| Juicy Apples |  1.99 |        739 |
+| Bananas      |  1.89 |          6 |
+</div>
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
 
-</center>
 
-<center> 
 | N38 Coreless| N38 Iron Core |
 | :---------: | :-----------: |
 |   <img width="300" height="400" alt="n38 coreless" src="https://github.com/user-attachments/assets/a4df24cc-7f22-4f6d-b442-360963e9af53" /> |  <img width="300" height="400" alt="n38 core" src="https://github.com/user-attachments/assets/ff126fdc-4c24-4f8a-a523-b958be218edb" /> |
 | **N52 Coreless** | **N52 Iron Core** |
 |     <img width="300" height="400" alt="n52 coreless" src="https://github.com/user-attachments/assets/324e899a-66cd-4aae-9350-e6c4c2b0363f" /> | <img width="300" height="400" alt="n52 core" src="https://github.com/user-attachments/assets/90b21da8-5861-4157-bf5e-38df54a81733" /> |
-</center>
 
 |<img width="1150" height="500" alt="5mm magnet graph" src="https://github.com/user-attachments/assets/825c0138-7d7a-419c-aa11-28da2d906eea" />|
 |:--:| 
