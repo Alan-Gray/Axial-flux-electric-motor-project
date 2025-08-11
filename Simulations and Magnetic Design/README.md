@@ -3,10 +3,22 @@
 |:--:| 
 | *3D magetic simulation* |
 
-While I had a good amount of experience using 2D simulations, 3D simulations were something new for this project. Orignially, I wanted to use ANSYS Maxwell. However, the student version imposed a mesh limit, making it hard for me simulate the full motor. 
+While I had a good amount of experience using 2D simulations, 3D simulations were something new for this project. Orignially, I wanted to use ANSYS Maxwell. However, the student license imposed a mesh limit, making it hard for me simulate the full motor. 
+
+After some searching, I found that some of the university computers had a full license of ANSYS Workbench. It's older and has less features, it would still be sufficient for my use case.  
+
+|<img width="1920" height="1200" alt="2mm rotor 3" src="https://github.com/user-attachments/assets/c8f1b037-d327-406b-a27f-d5210aed20a2" />|
+|:--:|
+|*3D magnetic simulation*|
+
+
+
+
+
+
 
 # Learning more about FEA 
-Because of this, I had to find a different software and eventually found an open source solver called Elmer. It was more complex and hard to use but it forced me to understand more about finite element simulaitions and how they work. 
+Whilst I was looking for a different software to use, I found an open source solver called Elmer. It was more complex and hard to use but it forced me to understand more about finite element simulaitions and how they work. 
 
 |<img width="1031" height="861" alt="Screenshot 2025-05-28 123052" src="https://github.com/user-attachments/assets/69edb2bb-1c57-416d-980c-96242bfc202c" />|
 |:--:|
@@ -15,3 +27,5 @@ Because of this, I had to find a different software and eventually found an open
 
 
 |<img width="396" height="558" alt="Screenshot 2025-05-30 205739" src="https://github.com/user-attachments/assets/a556fda7-e729-4f68-8af1-a6b799691c2a" />, <img width="525" height="553" alt="Screenshot 2025-05-30 205746" src="https://github.com/user-attachments/assets/d32e435e-ab37-4420-b46c-80c75e5ab22f" />|
+|:--:|
+|*Le image*|
