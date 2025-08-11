@@ -11,18 +11,20 @@ The 2D simulations were used to compare my different ideas for the magnetic desi
 | **N52 Coreless** | **N52 Iron Core** |
 |     <img width="300" height="400" alt="n52 coreless" src="https://github.com/user-attachments/assets/324e899a-66cd-4aae-9350-e6c4c2b0363f" /> | <img width="300" height="400" alt="n52 core" src="https://github.com/user-attachments/assets/90b21da8-5861-4157-bf5e-38df54a81733" /> |
 
-|<img width="1150" height="500" alt="5mm magnet graph" src="https://github.com/user-attachments/assets/825c0138-7d7a-419c-aa11-28da2d906eea" />|
+|<img width="1762" height="880" alt="3mm magnet graph" src="https://github.com/user-attachments/assets/6437bf9d-1194-4366-8302-0d9aab899e08" />|
 |:--:| 
 | *Graph of magnetic field strength across coil centres* |
 
 ### Simulations: 5mm magnets
 | N38 Coreless| N38 Iron Core |
 | :---------: | :-----------: |
-|   |  |
+| <img width="903" height="717" alt="n38 coreless" src="https://github.com/user-attachments/assets/74accf82-5e00-4a72-ad16-01d9a8118c4f" />
+  | <img width="773" height="703" alt="n38 core" src="https://github.com/user-attachments/assets/563a9b4d-bbeb-4bf2-b37c-346739ab78cf" />|
 | **N52 Coreless** | **N52 Iron Core** |
-|    | |
-
-||
+| <img width="400" height="366" alt="n52 coreless" src="https://github.com/user-attachments/assets/8c5ae237-d66c-4054-b898-93d79d7f2da4" />
+   | <img width="367" height="374" alt="n52 core" src="https://github.com/user-attachments/assets/85fae642-588a-476b-b9db-a5951fcd9e2e" />|
+   
+|<img width="1721" height="761" alt="5mm magnet graph" src="https://github.com/user-attachments/assets/365f5bab-0f25-4ddb-adaf-6b38341e4778" />|
 |:--:| 
 | *Graph of magnetic field strength across coil centres* |
 
