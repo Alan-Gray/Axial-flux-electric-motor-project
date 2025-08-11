@@ -5,8 +5,8 @@ My goal for my simulations was to compare different designs and accurately deter
 The 2D simulations were used to compare my different ideas for the magnetic design. In particualr, I wanted to analyse how stator cores and rotor backing iron would affect the motor performance. My 2D simulations were made using FEMM 4.2.
 
 ### Simulations: 3mm magnets
-<div style="margin-left: auto; margin-right: auto;>
 
+<center>
 | N38 Coreless| N38 Iron Core |
 | :--:           | :--:           |
 |   <img width="300" height="400" alt="n38 coreless" src="https://github.com/user-attachments/assets/a4df24cc-7f22-4f6d-b442-360963e9af53" /> |  <img width="300" height="400" alt="n38 core" src="https://github.com/user-attachments/assets/ff126fdc-4c24-4f8a-a523-b958be218edb" /> |
@@ -16,8 +16,7 @@ The 2D simulations were used to compare my different ideas for the magnetic desi
 |<img width="1150" height="500" alt="5mm magnet graph" src="https://github.com/user-attachments/assets/825c0138-7d7a-419c-aa11-28da2d906eea" />|
 |:--:| 
 | *Graph of magnetic field strength across coil centres* |
-
-</div>
+</center>
 
 ## 3D Simulations: 
 |<img width="1613" height="1238" alt="sim3" src="https://github.com/user-attachments/assets/1ad5a047-61dc-413a-b529-c1c3289ea933" />|
