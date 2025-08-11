@@ -1,2 +1,7 @@
 # Simulations and Magnetic Design
-<img width="1613" height="1238" alt="sim3" src="https://github.com/user-attachments/assets/1ad5a047-61dc-413a-b529-c1c3289ea933" />
+|<img width="1613" height="1238" alt="sim3" src="https://github.com/user-attachments/assets/1ad5a047-61dc-413a-b529-c1c3289ea933" />|
+|:--:| 
+| *3D magetic simulation* |
+While I had a good amount of experience using 2D simulations, 3D simulations were something new for this project. Orignially, I wanted to use ANSYS Maxwell. However, the student version imposed a mesh limit, making it hard for me simulate the full motor. 
+
+awdaw
