@@ -1,6 +1,15 @@
 # Magnetic Simulations
-## 2D Simulations: 
+My goal for my simulations was to compare different designs and accurately determine the magnetic field density in the motor. To do this, I used a mix of 2D and 3D simulations. 
 
+## 2D Simulations: 
+The 2D simulations were used to compare my different ideas for the magnetic design. In particualr, I wanted to analyse how stator cores and rotor backing iron would affect the motor performance. My 2D simulations were made using FEMM 4.2.
+
+| *N38 Coreless* | *N38 Iron Core*|
+| :--:           | :--:           |
+|   <img width="323" height="387" alt="n38 coreless" src="https://github.com/user-attachments/assets/a4df24cc-7f22-4f6d-b442-360963e9af53" /> |  <img width="319" height="383" alt="n38 core" src="https://github.com/user-attachments/assets/ff126fdc-4c24-4f8a-a523-b958be218edb" /> |
+| *N52 Coreless* | *N52 Iron Core*|
+| :--:           | :--:           |
+|     <img width="844" height="920" alt="n52 coreless" src="https://github.com/user-attachments/assets/324e899a-66cd-4aae-9350-e6c4c2b0363f" /> | <img width="351" height="395" alt="n52 core" src="https://github.com/user-attachments/assets/90b21da8-5861-4157-bf5e-38df54a81733" /> |
 
 
 
@@ -22,7 +31,7 @@ After some searching, I found that some of the university computers had a full l
 
 
 
-# Learning more about FEA 
+## Learning more about FEA 
 Whilst I was looking for a different software to use, I found an open source solver called Elmer. It was more complex and hard to use but it forced me to understand more about finite element simulaitions and how they work. 
 
 |<img width="1031" height="861" alt="Screenshot 2025-05-28 123052" src="https://github.com/user-attachments/assets/69edb2bb-1c57-416d-980c-96242bfc202c" />|
