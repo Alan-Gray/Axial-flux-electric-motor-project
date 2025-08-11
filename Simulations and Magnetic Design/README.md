@@ -9,10 +9,12 @@ The 2D simulations were used to compare my different ideas for the magnetic desi
 <div style="margin-left: auto;
             margin-right: auto;
             width: 30%">
+            
 | Item         | Price | # In stock |
 |--------------|:-----:|-----------:|
 | Juicy Apples |  1.99 |        739 |
 | Bananas      |  1.89 |          6 |
+
 </div>
 
 
