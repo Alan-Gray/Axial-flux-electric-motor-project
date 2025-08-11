@@ -9,5 +9,9 @@ While I had a good amount of experience using 2D simulations, 3D simulations wer
 Because of this, I had to find a different software and eventually found an open source solver called Elmer. It was more complex and hard to use but it forced me to understand 
 
 |<img width="1031" height="861" alt="Screenshot 2025-05-28 123052" src="https://github.com/user-attachments/assets/69edb2bb-1c57-416d-980c-96242bfc202c" />|
+|:--:|
 | *Simulation made in Elmer* |
 
+
+
+|<img width="396" height="558" alt="Screenshot 2025-05-30 205739" src="https://github.com/user-attachments/assets/a556fda7-e729-4f68-8af1-a6b799691c2a" />, <img width="525" height="553" alt="Screenshot 2025-05-30 205746" src="https://github.com/user-attachments/assets/d32e435e-ab37-4420-b46c-80c75e5ab22f" />|
