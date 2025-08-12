@@ -18,6 +18,7 @@ The 2D simulations were used to compare my different ideas for the magnetic desi
 -->
 
 ### Simulations : 5mm magnets - Coreless vs Iron Core
+The magnetic field density is measured in the middle of the core going from top to bottom. 
 | N38 Coreless| N38 Iron Core |
 | :---------: | :-----------: |
 | <img width="903" height="717" alt="n38 coreless" src="https://github.com/user-attachments/assets/74accf82-5e00-4a72-ad16-01d9a8118c4f" /> | <img width="773" height="703" alt="n38 core" src="https://github.com/user-attachments/assets/563a9b4d-bbeb-4bf2-b37c-346739ab78cf" /> |
