@@ -34,9 +34,10 @@ The 2D simulations were used to compare my different ideas for the magnetic desi
 |<img width="1613" height="1238" alt="sim3" src="https://github.com/user-attachments/assets/1ad5a047-61dc-413a-b529-c1c3289ea933" />|
 |:--:| 
 | *3D magetic simulation* |
+
 Whilst I had a good amount of experience using 2D simulations, 3D simulations were something new for this project. Orignially, I wanted to use ANSYS Maxwell. However, the student license imposed a mesh limit, making it hard for me simulate the full motor. 
 
-After some searching, I found that some of the university computers had a full license of ANSYS Workbench. It was older and had less features, it was sufficient for my use case.  
+After some searching, I found that some of the university computers had a full license of ANSYS Workbench. It was older and had less features, it was sufficient for my use case. It was very satifying seeing the first results of the simulations, as I had to do alot of troubleshooting to get it working.
 
 |<img width="1920" height="1200" alt="2mm rotor 3" src="https://github.com/user-attachments/assets/c8f1b037-d327-406b-a27f-d5210aed20a2" />|
 |:--:|
