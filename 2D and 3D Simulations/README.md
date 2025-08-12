@@ -33,7 +33,7 @@ The magnetic field density is measured in the middle of the core going from top 
 | **N52 Coreless** | **N52 Iron Core** |
 | :---------: | :-----------: |
 | <img width="653" height="638" alt="iron core no rotor iron pic" src="https://github.com/user-attachments/assets/6003c4c9-69bd-4275-87e2-de21a14aaa9d" />| <img width="413" height="466" alt="iron core and rotor iron" src="https://github.com/user-attachments/assets/23ae702a-4e71-4e58-bd9f-93c49630e8aa" /> |
-| <img width="738" height="440" alt="iron core no rotor iron" src="https://github.com/user-attachments/assets/d1882965-4e8d-4fad-a8ac-3da593ab49d1" /> | <img width="687" height="417" alt="iron core and rotor iron graph" src="https://github.com/user-attachments/assets/04452bfa-49bf-4a13-a89a-31d7e12ac4f6" /> |
+| <img width="738" height="440" alt="iron core no rotor iron" src="https://github.com/user-attachments/assets/d1882965-4e8d-4fad-a8ac-3da593ab49d1" /> | <img width="738" height="440" alt="iron core and rotor iron graph" src="https://github.com/user-attachments/assets/04452bfa-49bf-4a13-a89a-31d7e12ac4f6" /> |
 
 | *Comparison between rotor backing iron and no rotor backing iron* | 
 |:--:|   
