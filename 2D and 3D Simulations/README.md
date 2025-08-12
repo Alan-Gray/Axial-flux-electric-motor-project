@@ -1,5 +1,5 @@
 # Magnetic Simulations
-My goal for my simulations was to compare different designs and determine the magnetic field density in the motor. To do this, I used a mix of 2D and 3D simulations. 
+My goal for my simulations was to compare different designs and determine the magnetic field density in the motor. To do this, I used a mix of 2D and 3D simulations. The magnets used were 20 mm x 10 mm x 5 mm block magnets. 
 
 
 
@@ -17,7 +17,7 @@ The 2D simulations were used to compare my different ideas for the magnetic desi
 | *Graph of magnetic field strength across coil centres* | 
 -->
 
-### Simulations: 5mm magnets - Coreless vs Iron Core
+### Simulations : 5mm magnets - Coreless vs Iron Core
 | N38 Coreless| N38 Iron Core |
 | :---------: | :-----------: |
 | <img width="903" height="717" alt="n38 coreless" src="https://github.com/user-attachments/assets/74accf82-5e00-4a72-ad16-01d9a8118c4f" /> | <img width="773" height="703" alt="n38 core" src="https://github.com/user-attachments/assets/563a9b4d-bbeb-4bf2-b37c-346739ab78cf" /> |
@@ -28,6 +28,11 @@ The 2D simulations were used to compare my different ideas for the magnetic desi
 |:--:| 
 | *Graph of magnetic field strength across coil centres* |
 
+### Simulations : 5mm magnets - Rotor Backing Iron vs No Rotor Backing Iron 
+| **N52 Coreless** | **N52 Iron Core** |
+| <img width="653" height="638" alt="iron core no rotor iron pic" src="https://github.com/user-attachments/assets/6003c4c9-69bd-4275-87e2-de21a14aaa9d" />| <img width="413" height="466" alt="iron core and rotor iron" src="https://github.com/user-attachments/assets/23ae702a-4e71-4e58-bd9f-93c49630e8aa" /> |
+| <img width="738" height="440" alt="iron core no rotor iron" src="https://github.com/user-attachments/assets/d1882965-4e8d-4fad-a8ac-3da593ab49d1" /> | <img width="687" height="417" alt="iron core and rotor iron graph" src="https://github.com/user-attachments/assets/04452bfa-49bf-4a13-a89a-31d7e12ac4f6" /> |
+  
 
 
 
