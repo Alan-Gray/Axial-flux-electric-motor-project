@@ -4,18 +4,7 @@ My goal for my simulations was to compare different designs and determine the ma
 
 
 ## 2D Simulations: 
-The 2D simulations were used to compare my different ideas for the magnetic design. In particualr, I wanted to analyse how stator cores and rotor backing iron would affect the motor performance. I also wanted to determine what magnet grade to use. The simulations were used as rough comparisons (you cant fully simulate an axial flux motor in two dimensions), but they were still very useful. The simulations were made in FEMM 4.2 and the graph was made in excel.
-<!--- ### Simulations: 3mm magnets - Coreless vs Iron Core 
-| N38 Coreless| N38 Iron Core | 
-| :---------: | :-----------: | 
-|   <img width="300" height="400" alt="n38 coreless" src="https://github.com/user-attachments/assets/a4df24cc-7f22-4f6d-b442-360963e9af53" /> |  <img width="300" height="400" alt="n38 core" src="https://github.com/user-attachments/assets/ff126fdc-4c24-4f8a-a523-b958be218edb" /> |
-| **N52 Coreless** | **N52 Iron Core** |
-|     <img width="300" height="400" alt="n52 coreless" src="https://github.com/user-attachments/assets/324e899a-66cd-4aae-9350-e6c4c2b0363f" /> | <img width="300" height="400" alt="n52 core" src="https://github.com/user-attachments/assets/90b21da8-5861-4157-bf5e-38df54a81733" /> |
-
-|<img width="1762" height="880" alt="3mm magnet graph" src="https://github.com/user-attachments/assets/6437bf9d-1194-4366-8302-0d9aab899e08" />|
-|:--:| 
-| *Graph of magnetic field strength across coil centres* | 
--->
+The 2D simulations were used to compare my different ideas for the magnetic design. In particualr, I wanted to analyse how stator cores and rotor backing iron would affect the motor performance. I also wanted to determine what magnet grade to use. The simulations were used as rough comparisons (you cant fully simulate an axial flux motor in two dimensions) but they were still very useful. The simulations were made in FEMM 4.2 and the graph was made in excel.
 
 ### Simulations : 5mm magnets - Coreless vs Iron Core
 The magnetic field density is measured in the middle of the core going from top to bottom. 
@@ -36,7 +25,9 @@ The magnetic field density is measured in the middle of the core going from top 
 | <img width="738" height="440" alt="iron core no rotor iron" src="https://github.com/user-attachments/assets/d1882965-4e8d-4fad-a8ac-3da593ab49d1" /> | <img width="738" height="440" alt="iron core and rotor iron graph" src="https://github.com/user-attachments/assets/04452bfa-49bf-4a13-a89a-31d7e12ac4f6" /> |
 
 | *Comparison between rotor backing iron and no rotor backing iron* | 
-|:--:|   
+|:--:|  
+
+I knew from the beginning that stator cores and rotor backing iron would be better for performance, but I didn't realise how much of a difference it would make. 
 
 ## 3D Simulations: 
 Whilst I had a good amount of experience using 2D simulations, 3D simulations were something new for this project. Orignially, I wanted to use ANSYS Maxwell. However, the student license imposed a mesh limit, making it hard for me simulate the full motor. 
