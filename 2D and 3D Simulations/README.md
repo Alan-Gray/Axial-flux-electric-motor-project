@@ -62,7 +62,7 @@ Whilst I was looking for a different software to use, I found an open source sol
 
 |<img width="1031" height="861" alt="Screenshot 2025-05-28 123052" src="https://github.com/user-attachments/assets/69edb2bb-1c57-416d-980c-96242bfc202c" />|
 |:--:|
-| *Tutorial simulation made in Elmer* |
+| *My first simulation in elmer after following an online tutorial* |
 
 
 
