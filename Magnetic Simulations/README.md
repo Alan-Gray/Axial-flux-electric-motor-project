@@ -5,7 +5,6 @@ My goal for my simulations was to compare different designs and determine the ma
 The 2D simulations were used to compare my different ideas for the magnetic design. In particualr, I wanted to analyse how stator cores and rotor backing iron would affect the motor performance. I also wanted to determine what magnet grade to use. These were rough comparisons as you cant fully simulate an axial flux motor in two dimensions, but they were still very useful. 
 
 ### Simulations : 5mm magnets - Coreless vs Cored stator coils
-The magnetic field density is measured in the middle of the core going from top to bottom. 
 | N38 Coreless| N38 Iron Core |
 | :---------: | :-----------: |
 | <img width="903" height="717" alt="n38 coreless" src="https://github.com/user-attachments/assets/74accf82-5e00-4a72-ad16-01d9a8118c4f" /> | <img width="773" height="703" alt="n38 core" src="https://github.com/user-attachments/assets/563a9b4d-bbeb-4bf2-b37c-346739ab78cf" /> |
@@ -14,7 +13,7 @@ The magnetic field density is measured in the middle of the core going from top 
    
 |<img width="1721" height="761" alt="5mm magnet graph" src="https://github.com/user-attachments/assets/365f5bab-0f25-4ddb-adaf-6b38341e4778" />|
 |:--:| 
-| *Graph of magnetic field strength across coil centres* |
+| *Graph of magnetic field strength across coil centres. The magnetic field density is measured in the middle of the core going from top to bottom.* |
 
 ### Simulations : 5mm magnets - Rotor Backing Iron vs No Rotor Backing Iron 
 | **N52 Coreless** | **N52 Iron Core** |
