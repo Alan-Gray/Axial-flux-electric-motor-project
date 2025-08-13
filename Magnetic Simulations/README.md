@@ -32,13 +32,11 @@ Orignially, I wanted to use ANSYS Maxwell. However, the student license imposed 
 
 |<img width="1613" height="1238" alt="sim3" src="https://github.com/user-attachments/assets/1ad5a047-61dc-413a-b529-c1c3289ea933" />|
 |:--:| 
-| *3D magetic simulation* |
-
 |<img width="1920" height="1200" alt="2mm rotor 3" src="https://github.com/user-attachments/assets/c8f1b037-d327-406b-a27f-d5210aed20a2" />|
 |:--:|
-|*3D magnetic simulation*|
+|*3D magnetic simulations*|
 
-
+I got a couple insights from the 3D simulations that I previously hadn't considered. First, the centre of the rotor backing iron is useless and doesnt carry any flux (as seen above in the grey zone on the backing iron)
 
 
 
