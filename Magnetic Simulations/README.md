@@ -2,7 +2,7 @@
 My goal for my simulations was to compare different designs and determine the magnetic field density in the motor. To do this, I used a mix of 2D and 3D simulations. The 2D simulations were made in FEMM 4.2 and the 3D simulations were made in ANSYS Workbench.
 
 ## 2D Simulations: 
-The 2D simulations were used to compare my different ideas for the magnetic design. In particualr, I wanted to analyse how stator cores and rotor backing iron would affect the motor performance. I also wanted to determine what magnet grade to use. These were rough comparisons as you cant fully simulate an axial flux motor in two dimensions, but they were still very useful. 
+The 2D simulations were used to compare my different ideas for the magnetic design. In particualr, I wanted to analyse how stator cores and rotor backing iron would affect the motor performance. I also wanted to determine what magnet grade to use. These were rough comparisons as you cant fully simulate an axial flux motor in two dimensions, but they were still very useful to get an idea of what matters for a strong magnetic field.  
 
 ### Simulations : 5mm magnets - Coreless vs Cored stator coils
 | N38 Coreless| N38 Iron Core |
