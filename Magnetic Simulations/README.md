@@ -1,8 +1,8 @@
 # Magnetic Simulations
-My goal for my simulations was to compare different designs and determine the magnetic field density in the motor. To do this, I used a mix of 2D and 3D simulations. The magnets used were 20 mm x 10 mm x 5 mm block magnets. 
+My goal for my simulations was to compare different designs and determine the magnetic field density in the motor. To do this, I used a mix of 2D and 3D simulations. The 2D simulations were made in FEMM 4.2 and the 3D simulations were made in ANSYS Workbench.
 
 ## 2D Simulations: 
-The 2D simulations were used to compare my different ideas for the magnetic design. In particualr, I wanted to analyse how stator cores and rotor backing iron would affect the motor performance. I also wanted to determine what magnet grade to use. The simulations were used as rough comparisons (you cant fully simulate an axial flux motor in two dimensions) but they were still very useful. The simulations were made in FEMM 4.2 and the graph was made in excel. 
+The 2D simulations were used to compare my different ideas for the magnetic design. In particualr, I wanted to analyse how stator cores and rotor backing iron would affect the motor performance. I also wanted to determine what magnet grade to use. These were rough comparisons as you cant fully simulate an axial flux motor in two dimensions, but they were still very useful. 
 
 ### Simulations : 5mm magnets - Coreless vs Cored stator coils
 The magnetic field density is measured in the middle of the core going from top to bottom. 
@@ -25,9 +25,9 @@ The magnetic field density is measured in the middle of the core going from top 
 | *Comparison between rotor backing iron and no rotor backing iron* | 
 |:--:|  
 
-I knew that stator cores and rotor backing iron would be better for performance, but I didn't realise how much of a difference it would make. Using stator cores nearly doubles the magnetic field density, and rotor backing iron doubles it again. The simulations assume the magnetic material is iron which won't be the case for my motor (its way to expensive), but it is still clear that I should include both stator cores and backing iron in the motor.   
+I knew that stator cores and rotor backing iron would improve performance, but I didn't realise how much of an improvement it would be. Using stator cores nearly doubles the magnetic field density, and rotor backing iron doubles it again. The simulations assume the magnetic material is iron which won't be the case for my motor (its way to expensive), but it is still clear that I should include both stator cores and backing iron in the motor.   
 
-The N52 magnets had roughly 16% higher magnetic field density than the N38 magnets. Usually, N38 magnets are much cheaper and thus make the lower performance worth it. In my case, I found the magnets to be roughly the same price for both grades so I went with the N52 magnets.  
+The N52 magnets had roughly 16% higher magnetic field density than the N38 magnets, which alligns with datasheets available online. N38 magnets are much cheaper, which can be appealing if you're buying them in bulk. I'll be making a small order, I chose to use the N52 magnets. 
 
 ## 3D Simulations: 
 Whilst I had a good amount of experience using 2D simulations, 3D simulations were something new for this project. Orignially, I wanted to use ANSYS Maxwell. However, the student license imposed a mesh limit, making it hard for me simulate the full motor. 
