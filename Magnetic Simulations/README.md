@@ -21,17 +21,14 @@ The 2D simulations were used to compare my different ideas for the magnetic desi
 | <img width="653" height="638" alt="iron core no rotor iron pic" src="https://github.com/user-attachments/assets/6003c4c9-69bd-4275-87e2-de21a14aaa9d" />| <img width="413" height="466" alt="iron core and rotor iron" src="https://github.com/user-attachments/assets/23ae702a-4e71-4e58-bd9f-93c49630e8aa" /> |
 | <img width="738" height="440" alt="iron core no rotor iron" src="https://github.com/user-attachments/assets/d1882965-4e8d-4fad-a8ac-3da593ab49d1" /> | <img width="738" height="440" alt="iron core and rotor iron graph" src="https://github.com/user-attachments/assets/04452bfa-49bf-4a13-a89a-31d7e12ac4f6" /> |
 
-| *Comparison between rotor backing iron and no rotor backing iron* | 
-|:--:|  
-
 I knew that stator cores and rotor backing iron would improve performance, but I didn't realise how much of an improvement it would be. Using stator cores nearly doubles the magnetic field density, and rotor backing iron doubles it again. The simulations assume the magnetic material is iron which won't be the case for my motor (its way to expensive), but it is still clear that I should include both stator cores and backing iron in the motor.   
 
 The N52 magnets had roughly 16% higher magnetic field density than the N38 magnets, which alligns with datasheets available online. N38 magnets are much cheaper, which can be appealing if you're buying them in bulk. I'll be making a small order, I chose to use the N52 magnets. 
 
 ## 3D Simulations: 
-Whilst I had a good amount of experience using 2D simulations, 3D simulations were something new for this project. Orignially, I wanted to use ANSYS Maxwell. However, the student license imposed a mesh limit, making it hard for me simulate the full motor. 
+After deciding to include both stator cores and rotor backing iron in the motor, I stared working on the 3D simulations to validate my findings and determine a more accurate figure for the magnetic field density. Whilst I had a good amount of experience using 2D simulations, 3D simulations were something new for this project. 
 
-After some searching, I found that some of the university computers had a full license of ANSYS Workbench. It was older and had less features but it was sufficient for my use case. It was very satifying seeing the first results of the simulations, as I had to do alot of troubleshooting to get it working.
+Orignially, I wanted to use ANSYS Maxwell. However, the student license imposed a mesh limit, making it hard for me simulate the full motor. After some searching, I found that some of the university computers had a full license of ANSYS Workbench. It was older and had less features, but it was sufficient for my use case. I had to do alot of troubleshooting to get it working and it was very satifying to see the first results of the simulations.
 
 |<img width="1613" height="1238" alt="sim3" src="https://github.com/user-attachments/assets/1ad5a047-61dc-413a-b529-c1c3289ea933" />|
 |:--:| 
