@@ -8,5 +8,10 @@ I've split each section into its own folder. Enjoy!
 
 ## Key specs
 
-| :--: | :--: |
-|   a   |    a  | 
+| Specification | Column 2 Heading |
+| ---------------- | ---------------- |
+| Row 1, Col 1     | Row 1, Col 2     |
+| Row 2, Col 1     | Row 2, Col 2     |
+| Row 3, Col 1     | Row 3, Col 2     |
+| Row 4, Col 1     | Row 4, Col 2     |
+| Row 5, Col 1     | Row 5, Col 2     |
