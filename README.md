@@ -6,14 +6,21 @@ Over the past year I have become increasingly interested in electric motors. I b
 
 I've split each section into its own folder. Enjoy!
 
-## Key specs
+## Design summary
 
-
+| | |
+|:--: | :--: |
 | Motor Type | BLDC |
 | Motor Topology | Double-sided Axial flux |
 | Number of Poles | 16 |
 | Number of Coils | 12 |
 | Number of Phases | 3 | 
-| Impedance per coil | 0.2 &Omega; |
+| Turns per Coil | 50 | 
+| Impedance per Coil | 0.2 &Omega; |
+| Wire Thickness | 1 mm | 
+| Magnetic Material | 430 Stainless Steel | 
+| Lamination thickness | 0.7 mm | 
+
+ 
 
 
