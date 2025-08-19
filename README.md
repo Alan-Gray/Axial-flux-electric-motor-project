@@ -12,10 +12,10 @@ I've split each section into its own folder. Enjoy!
 
 | Motor Type | BLDC |
 |:-- | :--: |
-| Outer Diameter | 110 mm | 
-| Shaft Diameter | 10 mm |
+| Case Outer Diameter | 110 mm | 
 | Case Length | 60 mm |  
-
+| Shaft Diameter | 10 mm |
+| Estimated Cost | £100 | 
 
 ### Motor Specifications 
 | Motor Topology | Double-sided Axial flux |
