@@ -8,8 +8,8 @@ I've split each section into its own folder. Enjoy!
 
 ## Key specs
 
-| **Specifications** |
-| :-----------------------: |
+
+| :-----------------------: | :--:| 
 | Motor Type | BLDC |
 | Motor Topology | Double-sided Axial flux |
 | Number of Poles | 16 |
