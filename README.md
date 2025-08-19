@@ -9,7 +9,7 @@ I've split each section into its own folder. Enjoy!
 ## Design summary
 
 | | |
-|:--: | :--: |
+|:-- | :--: |
 | Motor Type | BLDC |
 | Motor Topology | Double-sided Axial flux |
 | Number of Poles | 16 |
