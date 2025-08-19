@@ -20,7 +20,7 @@ I've split each section into its own folder. Enjoy!
 | Wire Thickness | 1 mm | 
 | Magnetic Material | 430 Stainless Steel | 
 | Lamination thickness | 0.7 mm | 
-| Other Material | PLA | 
+| Case, Rotor and Shaft Material | PLA | 
 | Manufacturing Techniques | 3D printing, Water-jet Cutting |  
 
  
