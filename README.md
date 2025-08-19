@@ -31,6 +31,7 @@ I've split each section into its own folder. Enjoy!
 ### Materials 
 | Magnetic Material | N52 Neodymium | 
 |:-- | :--: |
+| Magnet Dimensions | 20 mm x 10 mm x 5 mm | 
 | Core Material | 430 Stainless Steel | 
 | Case, Rotor and Shaft Material | PLA | 
 | Manufacturing Techniques | 3D printing, Water-jet Cutting |  
