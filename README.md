@@ -8,10 +8,13 @@ I've split each section into its own folder. Enjoy!
 
 ## Key specs
 
-| Heading  |
-| ---------------- | ---------------- |
-| Row 1, Col 1     | Row 1, Col 2     |
-| Row 2, Col 1     | Row 2, Col 2     |
-| Row 3, Col 1     | Row 3, Col 2     |
-| Row 4, Col 1     | Row 4, Col 2     |
-| Row 5, Col 1     | Row 5, Col 2     |
+| **Specifications** |
+| :-----------------------: |
+| Motor Type | BLDC |
+| Motor Topology | Double-sided Axial flux |
+| Number of Poles | 16 |
+| Number of Coils | 12 |
+| Number of Phases | 3 | 
+| Impedance per coil | 0.2 &Omega; |
+
+
