@@ -1,6 +1,6 @@
 # Coil Winding and Electrical Design
 
-|<img width="1053" height="1068" alt="coil" src="https://github.com/user-attachments/assets/5f0fc5c2-65ef-4652-a312-34c36b6c230f" />|
+|<img width="600" height="600" alt="coil" src="https://github.com/user-attachments/assets/5f0fc5c2-65ef-4652-a312-34c36b6c230f" />|
 |:--:| 
 | *A coreless coil* |
 
