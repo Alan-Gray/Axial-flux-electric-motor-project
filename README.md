@@ -8,18 +8,23 @@ I've split each section into its own folder. Enjoy!
 
 ## Design summary
 
-| | |
+| General specifications| |
 |:-- | :--: |
 | Motor Type | BLDC |
+| Outer Diameter | 110 mm | 
+| Shaft Diameter | 10 mm |
+| Case Length | 60 mm |  
+| **Motor Specs**| |  
 | Motor Topology | Double-sided Axial flux |
+| Air Gap | 1 mm | 
 | Number of Poles | 16 |
 | Number of Coils | 12 |
 | Number of Phases | 3 | 
 | Turns per Coil | 50 | 
-| Impedance per Coil | 0.2 &Omega; |
 | Wire Thickness | 1 mm | 
-| Magnetic Material | 430 Stainless Steel | 
-| Lamination thickness | 0.7 mm | 
+| Impedance per Coil | 0.2 &Omega; |
+| Magnetic Material | N52 Neodymium | 
+| Core Material | 430 Stainless Steel | 
 | Case, Rotor and Shaft Material | PLA | 
 | Manufacturing Techniques | 3D printing, Water-jet Cutting |  
 
