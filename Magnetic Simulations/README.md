@@ -36,7 +36,7 @@ Orignially, I wanted to use ANSYS Maxwell. However, the student license imposed 
 |:--:|
 |*3D magnetic simulations*|
 
-I got a couple insights from the 3D simulations that I previously hadn't considered. First, the centre of the rotor backing iron doesnt carry any flux (as seen above in the grey zone on the backing iron) meaning it can be removed without any decrease in magnetic performance. Secondly, only the cores of the stator should be made out of magnetic material or wierd flux paths arise. I originally thought I would need to maximize the surface that could "catch" the magnetic field which would "funnel" into the core, but this was incorrect. 
+I got a couple insights from the 3D simulations that I previously hadn't considered. First, the centre of the rotor backing iron doesnt carry any flux (as seen above in the grey zone on the backing iron) meaning it can be removed without any decrease in magnetic performance. Secondly, only the stator cores should be made out of ferromagnetic material or wierd flux paths arise (within the stator). I originally thought I would need to maximize the surface that could "catch" the magnetic field, but this assumption was incorrect. When the only ferromagnetic part of the stator are the cores, all of the flux gets focused down them, increasing the magnetic field density. 
 
 
 ## Learning more about FEA 
