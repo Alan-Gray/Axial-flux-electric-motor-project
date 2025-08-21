@@ -40,7 +40,7 @@ I got a couple insights from the 3D simulations that I previously hadn't conside
 
 
 ## Learning more about FEA 
-Whilst I was looking for a different software to use, I found an open source program called Elmer GUI. It was more complex and hard to use but it forced me to understand more about finite element simulaitions and how they work. This included making my own mesh from step files using GMSH and playing around with non linear and linear convergence tolerances and iteration counts. 
+Whilst I was looking for a different software to use, I found an open source program called Elmer GUI. It was more complex and hard to use but it forced me to understand more about finite element simulaitions and how they work. This included making my own mesh from step files using GMSH and playing around with non linear and linear convergence tolerances and iteration counts. Whilst I couldn't get my own simulations working, it was a valuable learning experience. 
 
 |<img width="1031" height="861" alt="Screenshot 2025-05-28 123052" src="https://github.com/user-attachments/assets/69edb2bb-1c57-416d-980c-96242bfc202c" />|
 |:--:|
