@@ -27,6 +27,7 @@ I've split each section into its own folder. Enjoy!
 | Turns per Coil | 50 | 
 | Wire Thickness | 1 mm | 
 | Impedance per Coil | 0.2 &Omega; |
+| Inductance per Coil (estimate) | 5 &micro;H |
 
 ### Materials 
 | Magnetic Material | N52 Neodymium | 
