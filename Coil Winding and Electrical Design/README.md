@@ -12,4 +12,8 @@ The impedance of the coils was measured using an impedance analyser. The impedan
 
 ## Estimating Power output and calculations
 
-I used the equaiions found in the book "Axial Flux Permanent Magnet Brushless Machines (2nd edition)" to make my power output estimations. This boiled down to calculating an armature constant $K_e$, which specifies the voltage per RPM of the motor. 
+I used the equations found in the book "Axial Flux Permanent Magnet Brushless Machines (2nd edition)" to make my power output estimations. My estimation centred around calculating an armature constant $K_e$, which specifies the voltage per RPM of the motor. The equation for the armature contant is: 
+
+$$
+K_e = \pi\sqrt{2}pN_1k_{w1}\phi_f
+$$
