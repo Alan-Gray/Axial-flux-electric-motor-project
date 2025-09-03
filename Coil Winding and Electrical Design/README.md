@@ -46,5 +46,28 @@ Where:
 * $k_d$ is the ratio of the inner and outer diameter of the rotor, $\frac{D_{inner}}{D_{Outer}}$
 
 ### Winding factor - $k_{w1}$
+The winding factor $k_{w1}$ is a correction that accounts for small phase differences in parts of a coil/phase as the magents pass over them. The winding factor is the product of the distribution factor $k_{d1}$ and pitch factor $k_{p1}$. 
+
+$$
+k_{w1} = k_{d1}k_{p1}
+$$
+$$
+k_{d1} = \frac{sin(\pi/2m_1)}{q_1sin[\pi/(2m_1q_1)]}
+$$
+$$
+k_{p1}= sin(\beta\frac{\pi}{2})
+$$
+$$
+\beta = \frac{w_c(r)}{\tau(r)}
+$$
+
+Where: 
+* m_1 is the number of phases
+* s_1 is the number of stator slots
+* q_1 is the number of stator slots per pole per phase
+* $\beta$ is the coil-pitch to pole-pitch ratio
+* $w_c(r)$ is the coil pitch, $w_c(r) = \frac{\text{number of coils}}{\text{number of poles}}$
+* $\tau(r)$ is the pole pitch, $\tau(r) = \frac{s_1}{p}$
+
 
 
