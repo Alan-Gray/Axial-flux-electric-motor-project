@@ -10,7 +10,7 @@ I chose to use use the thickest wire I had available, which was 18 gauge wire (1
 
 The impedance of the coils was measured using an impedance analyser. The impedance of a single coil was around 0.2 Ohms for low frequencies (<1kHz). The previous version had 10 Ohms per coil, so the new motor has 50 times less internal resistance per coil.
 
-## Estimating Power Output 
+# Estimating Power Output 
 I used the equations found in the book "Axial Flux Permanent Magnet Brushless Machines (2nd edition)" to make my power output estimations. My estimation centred around calculating an armature constant $K_e$, which specifies the voltage per RPM of the motor. The following equations were used to estimate the armature constant for a single coil.
 
 ### Armature constant - $K_e$
