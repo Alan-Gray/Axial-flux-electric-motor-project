@@ -1,4 +1,4 @@
-# Coil Winding and Electrical Design
+# Electrical Design
 
 |<img width="600" height="600" alt="coil" src="https://github.com/user-attachments/assets/5f0fc5c2-65ef-4652-a312-34c36b6c230f" />|
 |:--:| 
@@ -10,8 +10,8 @@ I chose to use use the thickest wire I had available, which was 18 gauge wire (1
 
 The impedance of the coils was measured using an impedance analyser. The impedance of a single coil was around 0.2 Ohms for low frequencies (<1kHz). The previous version had 10 Ohms per coil, so the new motor has 50 times less internal resistance per coil.
 
-# Estimating Power Output 
-I used the equations found in the book "Axial Flux Permanent Magnet Brushless Machines (2nd edition)" to make my power output estimations. My estimation centred around calculating an armature constant $K_e$, which specifies the voltage per RPM of the motor. The following equations were used to estimate the armature constant for a single coil.
+# Estimating Power Output - Theory
+I'm using the equations found in "Axial Flux Permanent Magnet Brushless Machines (2nd edition)" to make my power calculations. My estimate centres around calculating an armature constant $K_e$, which specifies the voltage per RPM of the motor. Each equation will have its reference beside it so you can find them in the book.
 
 ### Armature constant - $K_e$
 The equation for the armature contant is: 
@@ -30,7 +30,7 @@ This is essentially just Faradays law:
 
 $$V_{emf} = -N\frac{d\phi}{dt}$$
 
-Which has been rearanged to be in terms fo V/RPM. This allows you to swap $\frac{d\phi}{dt}$ for $\phi_f$, which is alot easier to calculate (or simulate). The winding factor $k_{w1}$ is added to account for voltage drops caused by small phase differences within a coil as a magnet passes over them.   
+Where $\frac{d\phi}{dt}$ is expressed in terms of $\phi_f$ and RPM. The winding factor $k_{w1}$ is added to account for voltage drops caused by small phase differences within a coil as a magnet passes over them.   
 
 ### Airgap flux - $\phi_f$
 The airgap flux $\phi_f$ can be found using the equation: 
@@ -44,6 +44,8 @@ Where:
 * p is the number of pole pairs
 * $D_{outer}$ is the outer diameter of the rotor
 * $k_d$ is the ratio of the inner and outer diameter of the rotor, $\frac{D_{inner}}{D_{Outer}}$
+
+We can simplify $\alpha_i * B_{mg}$ to $B_{avg}$. The average magnetic field strength can be tedious to solve analytically, which is why I used 3D simulations to estimate it. 
 
 ### Winding factor - $k_{w1}$
 The winding factor $k_{w1}$ is a correction that accounts for small phase differences in parts of a coil/phase as the magents pass over them. The winding factor is the product of the distribution factor $k_{d1}$ and pitch factor $k_{p1}$. 
@@ -69,5 +71,5 @@ Where:
 * $w_c(r)$ is the coil pitch, $w_c(r) = \frac{\text{number of coils}}{\text{number of poles}}$
 * $\tau(r)$ is the pole pitch, $\tau(r) = \frac{s_1}{p}$
 
-
-
+## Estimating Power output - Results
+From my calculations, I calculated the armature constant for a single coil to be 0.0058 V/RPM
