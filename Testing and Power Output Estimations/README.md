@@ -1,10 +1,20 @@
+# Testing the motor
+Both my testing and theoretical calculations treated the motor like a generator, as I am more familiar with that. I tested the motor by spinning the shaft by hand and observing the voltage output on an oscilloscope. 
+
+
+
+
 # Estimating Power output
-Most of my calculations treat the motor like a generator, as I am more familiar with that. I'm using the equations found in "Axial Flux Permanent Magnet Brushless Machines (2nd edition)" for this. The power estimate centres around calculating an armature constant $K_e$, which specifies the voltage per RPM of the motor. You can find each equation with its book reference below.
+I'm using the equations found in "Axial Flux Permanent Magnet Brushless Machines (2nd edition)" for this. The power estimate centres around calculating an armature constant $K_e$, which specifies the voltage per RPM of the motor. You can find each equation with its book reference below.
 
-## Estimate - Result
-The estimated armature constant for a single coil is 0.0058 V/RPM. At 1000 RPM, the coil would generate 5.8 volts. With an internal resistance of 0.2 $\Omega$, it would supply 84 watts to an optimised load (load resistance = internal resistance). However, this would melt the coil, as the current would be larger than the current rating of the wire. I consider this to be a good thing, as it shows that the motor won't be limited by it's magnetic or electrical design.
+## Results
 
-## Theory
+
+The estimated armature constant of 0.0058 V/RPM. 
+
+At 1000 RPM, the coil would generate 5.8 volts. With an internal resistance of 0.2 $\Omega$, it would supply 84 watts to an optimised load (load resistance = internal resistance). However, this would melt the coil, as the current would be larger than the current rating of the wire. I consider this to be a good thing, as it shows that the motor won't be limited by it's magnetic or electrical design. 
+
+## Calculations - Theory
 ### Armature constant - $K_e$
 The equation for the armature contant is: 
 
