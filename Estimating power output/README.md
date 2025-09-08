@@ -1,6 +1,10 @@
-# Estimating Power Output - Theory
-I'm using the equations found in "Axial Flux Permanent Magnet Brushless Machines (2nd edition)" to make my power calculations. My estimate centres around calculating an armature constant $K_e$, which specifies the voltage per RPM of the motor. Each equation will have its reference beside it so you can find them in the book.
+# Estimating Power output
+Most of my calculations treat the motor like a generator, as I am more familiar with that. I'm using the equations found in "Axial Flux Permanent Magnet Brushless Machines (2nd edition)" for this. The power estimate centres around calculating an armature constant $K_e$, which specifies the voltage per RPM of the motor. You can find each equation with its book reference below.
 
+## Estimate - Result
+The estimated armature constant for a single coil is 0.0058 V/RPM. At 1000 RPM, the coil would generate 5.8 volts. With an internal resistance of 0.2 $\Omega$, it would supply 84 watts to an optimised load (load resistance = internal resistance). However, this would melt the coil, as the current would be larger than the current rating of the wire. I consider this to be a good thing, as it shows that the motor won't be limited by it's magnetic or electrical design.
+
+## Theory
 ### Armature constant - $K_e$
 The equation for the armature contant is: 
 
@@ -59,5 +63,3 @@ Where:
 * $w_c(r)$ is the coil pitch, $w_c(r) = \frac{\text{number of coils}}{\text{number of poles}}$
 * $\tau(r)$ is the pole pitch, $\tau(r) = \frac{s_1}{p}$
 
-## Estimating Power output - Results
-From my calculations, I calculated the armature constant for a single coil to be 0.0058 V/RPM
