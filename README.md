@@ -16,6 +16,8 @@ I've split each section into its own folder. Enjoy!
 | Case Length | 60 mm |  
 | Shaft Diameter | 10 mm |
 | Cost | £100 | 
+| Max power output | 615W |
+| Max RPM (no-load) | 4800 |
 
 ### Motor Specifications 
 | Motor Topology | Double-sided Axial flux |
