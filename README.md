@@ -17,7 +17,7 @@ I've split each section into its own folder. Enjoy!
 | Shaft Diameter | 10 mm |
 | Cost | £100 | 
 | Theoretical max power output | 615W |
-| Theoretical max RPM (no-load) | 4800 |
+| Theoretical max RPM (no-load) | 4800 RPM|
 
 ### Motor Specifications 
 | Motor Topology | Double-sided Axial flux |
