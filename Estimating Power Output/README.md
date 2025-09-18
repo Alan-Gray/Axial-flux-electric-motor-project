@@ -78,7 +78,7 @@ Where:
 * $q_1$ is the number of stator slots per pole per phase
 * $\beta$ is the coil-pitch to pole-pitch ratio
 * $w_c(r)$ is the coil pitch, $w_c(r) = \frac{\text{number of coils}}{\text{number of poles}}$ 
--->
 
 * $\tau(r)$ is the pole pitch, $\tau(r) = \frac{s_1}{p}$
 
+-->
