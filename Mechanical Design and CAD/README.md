@@ -25,6 +25,6 @@ Whilst 3D-printing the shaft was great for speed, it is **not** strong enough to
 |:--:| :--:|
 |*The two rotors a bit closer than I would like them to be...*| *not my proudest moment*|
 
-The magnets were unharmed and could be salvaged, but it was painfully clear that I need to redesign how I attach the rotors on the shaft. I was too focused on making it easy to assemble that I didn't consider that it needs to be strong enough. The first thing to do is make the shaft out of a stronger material like steel, and to make the rotor a single peice. I'm actively working on this currently, and Ill update the page once I've made something that works well. 
+The magnets were unharmed and could be salvaged, but it was painfully clear that I need to redesign how I attach the rotors on the shaft. I was too focused on making it easy to assemble that I didn't consider that it needs to be strong enough. For testing purposes, I rebuilt the current design with only one rotor, but the design needs to be changed. The first thing to improve is make the shaft out of a stronger material like steel, and to make the rotor a single peice. I'm actively working on this currently, and Ill update the page once I've made something that works well. 
 
-For testing purposes, I rebuilt the current design with only one rotor to eliminate any internal forces. 
+
