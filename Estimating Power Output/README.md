@@ -3,7 +3,7 @@ Whilst I tried to make a more detailed analysis using winding factors and armatu
 
 The equation for power is $P=VI$, which can be written as $P=I^2R$ as $V=IR$. with 10 Amps of current and 0.2 Ohms, we get a maximum power output per coil of 20W. With 12 coils per motor, we find the total power output of 240W. With 16 Amps of current, the total maximum power output increases to 615W. It should be noted that this is without any active cooling, and if active cooling is used the maximum power output would be higher.
 
-The back-EMF of the motor (using it as a generator) generates around 200mV at 300RPM per coil. This was done by spinning the shaft by hand and measuring the EMF on an oscilloscope. We can find the maximum RPM of the motor (at no-load) by calculating what RPM the back-EMF equals in input voltage.  The equation for the max RPM is: 
+The back-EMF of the motor (using it as a generator) generates around 200mV at 300RPM per coil. This was done by spinning the shaft by hand and measuring the EMF on an oscilloscope. We can find the maximum RPM of the motor (at no-load) by calculating what RPM the back-EMF equals the maximum input voltage.  The equation for the max RPM is: 
 
 $$
 \text{Max RPM} = 300*\frac{V_{max}}{200mV} = 300*\frac{IR}{0.2}
