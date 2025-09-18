@@ -1,12 +1,9 @@
-# Testing the motor
-Both my testing and theoretical calculations treated the motor like a generator, as I am more familiar with that. I tested the motor by spinning the shaft by hand and observing the voltage output on an oscilloscope. 
-
 # Estimating Power ouput 
-Whilst I tried to make a more detailed analysis below, I've realized a more simple approach to finding the maximum power ouput for the motor. We can use the current limit of the wire guage and the internal resistance for a coil to determine the maximum power that the coil can handle. Sources differ a bit, but 18 AWG (1mm) wire can handle somewhere between 10 and 16 Amps of current. Each coil has an internal resistance of 0.2 $\Omega$.
+Whilst I tried to make a more detailed analysis using winding factors and armature constants, I've realized a more simple approach to finding the maximum power ouput for the motor. Using the current limit of the wire guage and the internal resistance for a coil, we can determine the maximum power a coil can handle. Essentially, this is how much power the motor can handle before it melts, but it gives an good upper bound. Sources differ a bit, but 18 AWG (1mm) wire can handle somewhere between 10 and 16 Amps of current. Each coil has an internal resistance of 0.2 $\Omega$.
 
-The equation for power is $P=VI$, which can be written as $P=I^2R$ as $V=IR$. with 10 Amps of current and 0.2 Ohms, we get a maximum power output per coil of 20W. With 12 coils per motor, we find the total power output of 240W. With 16 Amps of current, the total maximum power output increases to 615W. Essentially, this is how much power the motor can handle before it melts, so it gives an good upper bound. It should be noted that this is without any active cooling, and if active cooling is used the maximum power output would be higher still.
+The equation for power is $P=VI$, which can be written as $P=I^2R$ as $V=IR$. with 10 Amps of current and 0.2 Ohms, we get a maximum power output per coil of 20W. With 12 coils per motor, we find the total power output of 240W. With 16 Amps of current, the total maximum power output increases to 615W. It should be noted that this is without any active cooling, and if active cooling is used the maximum power output would be higher still.
 
-From my testing, the back-EMF of the motor (using it as a generator) generates around 200mV at 300RPM per coil. We can find the maximum RPM of the motor (at no-load) by calculating what RPM the back-EMF equals in input voltage.  The equation for the max RPM is: 
+The back-EMF of the motor (using it as a generator) generates around 200mV at 300RPM per coil. This was done by spinning the shaft by hand and measuring the EMF on an oscilloscope. We can find the maximum RPM of the motor (at no-load) by calculating what RPM the back-EMF equals in input voltage.  The equation for the max RPM is: 
 
 $$
 \text{Max RPM} = 300*\frac{V_{max}}{200mV} = 300*\frac{IR}{0.2}
@@ -14,11 +11,11 @@ $$
 
 At 10 Amps, the maximum RPM is 3000RPM. At 16 Amps, the maximum becomes 4800 RPM.
 
+<!--
 # Estimating Power output - OLD VERSION
 I'm using the equations found in "Axial Flux Permanent Magnet Brushless Machines (2nd edition)" for this. The power estimate centres around calculating an armature constant $K_e$, which specifies the voltage per RPM of the motor. You can find each equation with its book reference below.
 
 ## Results
-
 
 The estimated armature constant of 0.0058 V/RPM. 
 
@@ -80,6 +77,8 @@ Where:
 * $s_1$ is the number of stator slots
 * $q_1$ is the number of stator slots per pole per phase
 * $\beta$ is the coil-pitch to pole-pitch ratio
-* $w_c(r)$ is the coil pitch, $w_c(r) = \frac{\text{number of coils}}{\text{number of poles}}$
+* $w_c(r)$ is the coil pitch, $w_c(r) = \frac{\text{number of coils}}{\text{number of poles}}$ 
+-->
+
 * $\tau(r)$ is the pole pitch, $\tau(r) = \frac{s_1}{p}$
 
