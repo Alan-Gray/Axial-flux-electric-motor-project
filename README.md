@@ -4,7 +4,7 @@
 
 Over the past year I have become increasingly interested in electric motors. I built a small axial flux generator as part of a university course and had alot of fun building it, but there were many things I could've done better. My goal for this project was to refine my previous design to run as a motor and to create a more efficient machine. My focus for this project was making the shaft spin well, reducing the airgap, and improving the electrical and magnetic design of the motor.
 
-I've split each section into its own folder. Enjoy!
+I've split each section into its own folder. Enjoy! 
 
 ## Design summary
 
@@ -39,6 +39,7 @@ I've split each section into its own folder. Enjoy!
 | Case, Rotor and Shaft Material | PLA | 
 | Manufacturing Techniques | 3D printing, Water-jet Cutting |  
 
- 
+ PS
+ Some parts are still being written, as I am actively working on improving the motor. 
 
 
