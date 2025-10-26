@@ -1,6 +1,13 @@
 # Axial-flux-electric-motor-project
 
-![final 3d printerd](https://github.com/user-attachments/assets/55846419-a8b6-457b-be80-7e71b974730b)
+<!--![final 3d printerd](https://github.com/user-attachments/assets/55846419-a8b6-457b-be80-7e71b974730b)-->
+
+
+<img width="738" height="756" alt="n38 coreless" src="https://github.com/user-attachments/assets/030fac24-f0fe-41bd-beda-3574943c9a1d">
+
+https://github.com/user-attachments/assets/0240cb34-20bc-444c-a97b-04bdd0747461 
+
+<!-- <img width="500" height="500" alt="n38 coreless" src="https://github.com/user-attachments/assets/3e4906e7-9eda-4006-9bef-0d93576fb85e" /> -->
 
 Over the past year I have become increasingly interested in electric motors. I built a small axial flux generator as part of a university course and had alot of fun building it, but there were many things I could've done better. My goal for this project was to refine my previous design to run as a motor and to create a more efficient machine. My focus for this project was making the shaft spin well, reducing the airgap, and improving the electrical and magnetic design of the motor.
 
@@ -16,8 +23,6 @@ I'm currently working on the next stage of this project, so some sections might 
 | Case Length | 60 mm |  
 | Shaft Diameter | 10 mm |
 | Cost | £100 | 
-| Theoretical max power output | 615W |
-| Theoretical max RPM (no-load) | 4800 RPM|
 
 ### Motor Specifications 
 | Motor Topology | Double-sided Axial flux |
